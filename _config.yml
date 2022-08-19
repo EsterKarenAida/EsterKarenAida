@@ -31,6 +31,13 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
+# Collections (data types)
+collections:
+  poems:
+    output: true
+    permalink: /poems/:title.html
+    sort_by: date
+
 # Defaults
 defaults:
   - scope:
@@ -41,6 +48,7 @@ defaults:
       path: "/poems/"
     values:
       layout: poem
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

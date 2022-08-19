@@ -1,10 +1,8 @@
-# Mitosis in the Burial Mounds
+---
+published_url: https://thebezine.com/portfolio/mitosis-burial-mounds/ 
+published_text: The Bezine
+---
 
-*By Ester Karen Aida*
-
-Published in [The Bezine](https://thebezine.com/portfolio/mitosis-burial-mounds/) June 29, 2022
-
-<pre>
 In my body rattle the dead
 like beads shook-up with longing
 in Rachel’s ovaries. 
@@ -70,4 +68,4 @@ and take care of each other
 But our children begin 
 by scanning the fields 
 for a few stalks of kindness.
-</pre>
+

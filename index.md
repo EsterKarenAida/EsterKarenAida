@@ -15,6 +15,16 @@ layout: home
 - [Mitosis in the Burial Mounds](/poems/mitosis-in-the-burial-mounds.md)
 
 
+
+<ul>
+  {% for poem in site.poems %}
+    <li>
+      <a href="{{ poem.url }}">{{ poem.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 <ul>
   {% for post in site.posts %}
     <li>
