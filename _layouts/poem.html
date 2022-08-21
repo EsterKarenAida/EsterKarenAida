@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: " en-US" }}">
+<head>
     {% include head-custom.html %}
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+</head>
+<body class="poem-body">
+<a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if page.published_url %}
-        <a href="{{ page.published_url }}" class="btn">View published poem</a>
-      {% endif %}
-    </header>
+<header class="page-header" role="banner">
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+        }}</h2>
+    {% if page.published_url and page.published_text %}
+    <a href="/" class="btn">Home</a>
+    <a href="{{ page.published_url }}" class="btn" target="_blank" rel=noopener rel=noreferrer>View on {{ page.published_text }}</a>
+    {% endif %}
+</header>
 
-    <main id="content" class="main-content" role="main">
-      # Mitosis in the Burial Mounds
+<main id="content" class="main-content" role="main">
+    <h1>{{ page.title }}</h1>
+    <i>By Ester Karen Aida</i>
+    {% if page.published_url and page.published_text %}
+    | Published in
+    <a href="{{ page.published_url }}" target="_blank" rel=noopener rel=noreferrer>
+        {{ page.published_text }}
+    </a>, {{ page.date | date: "%B %d, %Y" }}
+    {% endif %}
+    <br/>
+    <br/>
+    {{ content }}
 
-*By Ester Karen Aida*
-
-Published in [The Bezine](https://thebezine.com/portfolio/mitosis-burial-mounds/) June 29, 2022
-
-      {% if page.published_url and page.published_text %}
-      Published in <a href="{{ page.published_url }}" class="btn">{{ page.published_text }}</a> {{ page.date }}
-      {% endif %}
-
-      <pre>
-      {{ content }}
-      </pre>
-
-      <footer class="site-footer">
+    <footer class="site-footer">
         <span class="site-footer-credits"><a href="/">Back Home</a></span>
-      </footer>
-    </main>
-  </body>
+    </footer>
+</main>
+</body>
 </html>

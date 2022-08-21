@@ -45,7 +45,8 @@ defaults:
     values:
       image: true
   - scope:
-      path: "/poems/"
+      path: ""
+      type: poems
     values:
       layout: poem
 

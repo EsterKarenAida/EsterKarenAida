@@ -8,14 +8,9 @@ layout: home
 # Ester Karen Aida
 
 ## Welcome
-
+Welcome to Ester Karen Aida’s Memorial Site
 
 ## Poems
-
-- [Mitosis in the Burial Mounds](/poems/mitosis-in-the-burial-mounds.md)
-
-
-
 <ul>
   {% for poem in site.poems %}
     <li>
@@ -24,7 +19,7 @@ layout: home
   {% endfor %}
 </ul>
 
-
+## Posts
 <ul>
   {% for post in site.posts %}
     <li>
