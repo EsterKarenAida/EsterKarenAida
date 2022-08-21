@@ -15,21 +15,21 @@ to scan the fields.
 I buried a tooth for every
 kindness I recall.
 
-In the days between Yizkor
-and Yom haZikaron, some being
+In the days between *Yizkor*
+and *Yom haZikaron*, some being
 of smoke fills my throat.
 
 Is an organ implanted in a
 body, a tree’s grafted limb?
 What is your heart’s fruition?
 
-Ima from Kafr Qassem,
+*Ima* from *Kafr Qassem*,
 where exactly are you now,
-Neshama sheli?
+*Neshama sheli*?
 
 I think I should ask your 
 home-town Sheikh, who wrote, 
-organ donation will be halal.
+organ donation will be *halal*.
 
 I ask my heart: do you hold 
 two souls? We’ve cradled one 
