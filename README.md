@@ -4,7 +4,7 @@
 
 Run:
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --incremental
 ```
 
 ### Work on GitHub Web GUI
